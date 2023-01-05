@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# styled-components-usage by ts
+学习在ts中使用styled-components,因为我发现我按照官网的示例写,然后会报错,一般基本上都是说明类型不对,或者找不到对应的属性。
+因此我将styled-components官方文档的示例在这个项目中重写了一遍,使得官方的示例可以正常执行。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[styled components Documentation](https://styled-components.com/docs)
 
-## Available Scripts
+该项目由 `create-react-app [project-name] --template typescript` 创建
 
-In the project directory, you can run:
+[styled-components官方网站](https://styled-components.com/)
 
-### `npm start`
+# Basics
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```shell
+  npm install --save styled-components
+  npm install --save-dev @types/styled-components # 安装声明文件
+ ```
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Adapting based on props
 
-### `npm run build`
+## Extending Styles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Styling any component
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Passed props
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Coming from CSS
 
-### `npm run eject`
+### Define Styled Components outside of the render method
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+前面一直是这么定义的
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pseudoelements, pseudoselectors, and nesting
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The preprocessor we use, [stylis](https://github.com/thysultan/stylis), supports scss-like syntax for automatically nesting styles.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+伪类选择器,复合选择器语法以及嵌套循环样式
 
-## Learn More
+# Advanced
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Theming
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Ref
+
+## Security
+
+Skip
+
+## Existing CSS
+
+Skip
+
+## Tagged Template Literals
+
+标签模板字面量
+
+Skip
+
+## Server Side Rendering
+
+Skip
+
+## Style Objects
+
+
+# API Reference
+
+在这部分有 [typescript](https://styled-components.com/docs/api#typescript) 使用的部分讲解.
