@@ -39,6 +39,14 @@ The preprocessor we use, [stylis](https://github.com/thysultan/stylis), supports
 
 伪类选择器,复合选择器语法以及嵌套循环样式
 
+## Attaching additional props
+
+## Animations
+
+## React Native
+
+Skip
+
 # Advanced
 
 ## Theming
@@ -68,4 +76,6 @@ Skip
 
 # API Reference
 
-在这部分有 [typescript](https://styled-components.com/docs/api#typescript) 使用的部分讲解.
+## typescript
+
+在这部分有 [styled-components in typescript](https://styled-components.com/docs/api#typescript) 使用的部分讲解.
